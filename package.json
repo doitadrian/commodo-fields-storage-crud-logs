@@ -44,7 +44,7 @@
     "prettier": "^1.15.3",
     "ramda": "^0.26.1",
     "repropose": "^1.0.2",
-    "semantic-release": "^15.13.12",
+    "semantic-release": "^15.13.24",
     "wait-on": "^3.2.0"
   },
   "scripts": {
@@ -59,7 +59,8 @@
     "lint-staged": "lint-staged",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "semantic-releas:setup": "semantic-release-cli setup"
   },
   "pre-commit": [
     "lint-staged"
