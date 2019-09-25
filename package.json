@@ -19,7 +19,7 @@
   ],
   "homepage": "https://github.com/doitadrian/commodo-fields-storage-crud-logs#readme",
   "dependencies": {
-    "@commodo/fields": "^0.0.5",
+    "@commodo/fields": "^0.2.6",
     "@commodo/hooks": "^0.1.0",
     "commodo-fields-date": "^1.0.2"
   },
