@@ -1,7 +1,7 @@
 {
   "name": "commodo-fields-storage-crud-logs",
   "version": "0.0.0-development",
-  "description": "Logs when save / delete methods were called.",
+  "description": "Appends \"createdOn\", \"updatedOn\", and \"savedOn\" fields to your model.",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
