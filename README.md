@@ -57,7 +57,7 @@ console.log(company.updatedOn); // Logs "2020-04-19T14:37:05.726Z" (same as save
 console.log(company.savedOn); // Logs "2020-04-19T14:34:42.993Z" (same as updatedOn).
 ```
 
-##### `withCrudLogs` must be used with the `withStorage` HOF
+##### `withCrudLogs` must be used with the `withStorage` function
 In order to update the field values accordingly, the `withCrudLogs` utilizes the `beforeSave`, `beforeCreate`, and `beforeUpdate` hooks, which are created by the [`withStorage`](https://github.com/webiny/commodo/tree/master/packages/fields-storage) function.   
 
 ## Contributors
